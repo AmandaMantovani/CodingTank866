@@ -2,9 +2,10 @@
 
 namespace CodingTank
 {
-    class Program
+    class Aula1
     {
-        static void Main(string[] args)
+        //Para executar renomeie para Main
+        static void MainAula1(string[] args)
         {
 
             // Comentar uma linha
