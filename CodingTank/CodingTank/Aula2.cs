@@ -8,9 +8,9 @@ namespace CodingTank
 {
     class Aula2
     {
-        static void Main(string[] args)
+        static void MainAula2(string[] args)
         {
-
+            /*
             int valor50;
             //Cast implicito
             double valor1 = 1;
@@ -153,7 +153,7 @@ namespace CodingTank
                 A subtração é {valor1 - valor2} 
                 A multiplicação é {valor1 * valor2}
                 A divisão é {valor1 / valor2}");
-            
+            */
             /*
              * > maior
              * < menor
@@ -162,6 +162,7 @@ namespace CodingTank
              * == igual
              * != diferente
              */
+            /*
             if (!(numero1 != numero2))
             {
                 Console.WriteLine("Valores diferentes");
@@ -248,7 +249,7 @@ namespace CodingTank
             }
 
             Console.WriteLine("Infelizmente paga inteira!");
-
+            */
             Console.WriteLine("Descubra se você paga meia ou inteira");
             Console.WriteLine("Digite S - Sim ou N - Não");
 
@@ -301,7 +302,7 @@ namespace CodingTank
                     Console.WriteLine("Numero inválido");
                     break;
             }
-
+            /*
             int valors1 = 2;
 
             const int valors2 = 2;
@@ -323,7 +324,7 @@ namespace CodingTank
             {
 
             }
-            
+            */
         }
 
     }
