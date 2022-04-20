@@ -8,7 +8,7 @@ namespace CodingTank
 {
     class Aula2_Questao5
     {
-        static void Main(string[] args)
+        static void Questao5Main(string[] args)
         {
             Console.WriteLine("Informe o salário do colaborador:");
             decimal salario = decimal.Parse(Console.ReadLine());
