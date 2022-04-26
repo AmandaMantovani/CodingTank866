@@ -8,7 +8,7 @@ namespace CodingTank
 {
     class Aula3
     {
-        static void Main(string[] args)
+        static void Aula3Main(string[] args)
         {
             /*
             int[] vetorInteiro;
@@ -117,7 +117,7 @@ namespace CodingTank
             }
             while (!int.TryParse(entrada, out triangulo[0]));
             */
-
+            /*
             decimal[] notas = new decimal[4];
             decimal soma = 0;
 
@@ -129,7 +129,7 @@ namespace CodingTank
             }
 
             Console.WriteLine("Média do aluno é: " + (soma / 4));
-
+            */
             /*
             decimal[] notas = new decimal[4];
             decimal soma = 0;
@@ -198,7 +198,44 @@ namespace CodingTank
 
             int valor = vetor[i + 1];
             */
+            /*
+            int x = 5;
+            int y = 18;
+            int z = 7;
 
+            for (int i = 0; i <= 3; i++)
+            {
+                if ((x - 1) > 2)
+                    y = y + 1;
+                else
+                    y = y - 1;
+                z = z + x + y;
+                x--;
+            }*/
+            //Console.WriteLine(x);
+            //Console.WriteLine(y);
+            //Console.WriteLine(z);
+            /*
+            decimal a = 15;
+            decimal b = 7;
+            decimal c = 8;
+            decimal d = 11;
+
+            a = b;
+            b = c;
+            c = d;
+            d = a;
+
+            b = c + a;
+            c = d - b;
+            d = d + a * 2 - b;
+            a = b / 2;
+
+            Console.WriteLine(a);
+            Console.WriteLine(b);
+            Console.WriteLine(c);
+            Console.WriteLine(d);
+            */
 
 
         }
